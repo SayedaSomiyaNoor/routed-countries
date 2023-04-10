@@ -1,0 +1,20 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+  }
+.countries a {
+    text-decoration: none;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px grey;
+  }
+  
+.countries li{
+    list-style-type: none;
+}
